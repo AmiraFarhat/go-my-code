@@ -1,0 +1,41 @@
+body {
+font-family: Arial, Helvetica, sans-serif
+}
+.cart {
+    width: 70%;
+    margin: 20px auto;
+}
+cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid #ccc;  
+}
+item-details {
+    flex-grow: 1;
+}
+item-quantity {
+    display: flex;
+    align-items:center
+}
+heart {
+    cursor: pointer;    
+    color: grey;
+    font-size:20px; 
+}
+.liked {
+    color: red;
+}
+total-price {
+    text-align: right;
+    margin-top: 20px;
+}
+button {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+delete {
+    background-color: red;
+    color: white;
+}
